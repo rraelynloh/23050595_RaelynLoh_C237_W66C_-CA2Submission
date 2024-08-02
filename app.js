@@ -18,10 +18,10 @@ const upload = multer({ storage: storage });
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-host: 'localhost',
-user: 'root',
-password: '',
-database: 'c237_snoopyland'
+host: 'mysql-raelyn.alwaysdata.net',
+user: 'raelyn',
+password: 'Raelyn1003#',
+database: 'raelyn_c237_snoopyland'
 });
 
 connection.connect((err) => {
